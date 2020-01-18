@@ -1,0 +1,103 @@
+/* body{
+    font-family: 'Acme', sans-serif;
+font-family: 'Indie Flower', cursive;
+} */
+
+.container-1, .container-2, .container-3, .container-4, .container-5 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    padding: 30px;
+}
+#header{background:#181A1B; color: blanchedalmond;}
+#logo{
+    width: 20%;
+}
+.footer{
+    min-height: 200px;
+    padding: 30px;
+    /* margin: none; */
+    /* background: yellow; */
+    /* width: 100%; */
+    color: red;
+    background: #181A1B;
+}
+#footer_logo_img{
+    margin: 0px;
+    padding: 0px;
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.flex-box-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    justify-content: space-around;
+}
+.flex-box-container-2 img{
+    border: 2px solid green;
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 7);
+}
+.flex-box-rps img{
+    border: 2px solid green;
+    margin: 10px;
+    /* box-shadow: 0px 10px 50px rgba(0, 0, 0, 7); */
+}
+#flex-box-rps-div, #flex-box-test-div, #flex-box-form-div{
+    margin: 30px auto;
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 7);
+}
+#footer_me_img:hover{
+    border: chartreuse;
+}
+#maketest{
+    color: red;
+    font-weight: bold;
+}
+.miki{
+    float: left;
+}
+/* challenge 5*/  
+.someText{
+    color: whitesmoke;
+}
+.website-table{
+    margin: 40px 0px;
+}
+.h2change{
+    font-weight: bold;
+    color: blueviolet;
+}
+.asidediv{
+    border-left: 2px solid black;
+}
+
+/*---------- LE FILTER DE LA TABLE---------*/
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
