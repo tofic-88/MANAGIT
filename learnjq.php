@@ -17,14 +17,9 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid" id="header">
-        <div class="container">
-            <img id="logo" src="images/nw-logo.png" alt="NumidiaLogo">
-            <h1>MANAGIT</h1>
-            <h3>iF YOU DONT PROGRAM YOUR LIFE, LIFE DO IT</h3>
-            <?php require 'menu.php'; ?>
-        </div>
-    </div>
+
+    <?php require 'header.php'; ?>
+    
     <div class="container">
         <div class="row">
                 <div class="col-md-9">

@@ -19,14 +19,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid" id="header">
-        <div class="container">
-            <img id="logo" src="images/nw-logo.png" alt="NumidiaLogo">
-            <h1>Gestion des Candidatures</h1>
-            <h3>la pêche est bonne</h3>
-            <?php require 'menu.php'; ?> 
-        </div>
-    </div>
+
+     <?php require 'header.php'; ?>
  
     <div class="container">  
          <div class="row">

@@ -15,40 +15,39 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid" id="header">
-        <div class="container">
-            <img id="logo" src="images/nw-logo.png" alt="NumidiaLogo">
-            <h1>MANAGITo</h1>
-            <h3>iF YOU DONT PROGRAM YOUR LIFE, LIFE DO IT</h3>
-            <?php require 'menu.php'; ?>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                        <a href="index.php"><button type="button" class="btn btn-info"  id="index">Index</button></a><br><br>
-                        <a href="bmdata.php"><button type="button" class="btn btn-info"  id="bmdata">BMDATA</button></a><br><br>
-                        <a href="learnjq.php"><button type="button" class="btn btn-info"  id="bmdata">JQuery</button></a><br><br>
-            </div>
-            <div class="col">
-                        <a href="index.php"><button type="button" class="btn btn-info"  id="index">Index</button></a><br><br>
-                        <a href="bmdata.php"><button type="button" class="btn btn-info"  id="bmdata">BMDATA</button></a><br><br>
-                        <a href="learnjq.php"><button type="button" class="btn btn-info"  id="bmdata">JQuery</button></a><br><br>
-            </div>
-            <div class="col">
-                        <a href="index.php"><button type="button" class="btn btn-info"  id="index">Index</button></a><br><br>
-                        <a href="bmdata.php"><button type="button" class="btn btn-info"  id="bmdata">BMDATA</button></a><br><br>
-                        <a href="learnjq.php"><button type="button" class="btn btn-info"  id="bmdata">JQuery</button></a><br><br>
-            </div>
-            <div class="col">
-                        <a href="index.php"><button type="button" class="btn btn-info"  id="index">Index</button></a><br><br>
-                        <a href="bmdata.php"><button type="button" class="btn btn-info"  id="bmdata">BMDATA</button></a><br><br>
-                        <a href="learnjq.php"><button type="button" class="btn btn-info"  id="bmdata">JQuery</button></a><br><br>
-            </div>
-        </div>
-            
-    </div>
 
+    <?php require 'header.php'; ?>
+
+    <div class="container grid-btn-container">
+        <div class="row">
+
+            <div class="col">
+                <a href="index.php"><button href="index.php" type="button" class="btn btn-success btn-lg btn-block">Index</button></a><br>
+                <a href="bmdata.php"><button type="button" class="btn btn-primary btn-lg btn-block">GNCLIENT</button></a><br>
+                <a href="learnjq.php"><button type="button" class="btn btn-primary btn-lg btn-block">JQuery</button></a><br>
+                <a href="re.php"><button type="button" class="btn btn-primary btn-lg btn-block">RE</button></a><br>
+                <a href="exo.php"><button type="button" class="btn btn-primary btn-lg btn-block">EXOSYS</button></a><br>
+            </div>
+
+            <div class="col">
+                <a href="index.php"><button href="index.php" type="button" class="btn btn-success btn-lg btn-block">Index</button></a><br>
+                <a href="bmdata.php"><button type="button" class="btn btn-primary btn-lg btn-block">GNCLIENT</button></a><br>
+                <a href="learnjq.php"><button type="button" class="btn btn-primary btn-lg btn-block">JQuery</button></a><br>
+                <a href="re.php"><button type="button" class="btn btn-primary btn-lg btn-block">RE</button></a><br>
+                <a href="exo.php"><button type="button" class="btn btn-primary btn-lg btn-block">EXOSYS</button></a><br>
+            </div>
+
+            <div class="col">
+                <a href="index.php"><button href="index.php" type="button" class="btn btn-success btn-lg btn-block">Index</button></a><br>
+                <a href="bmdata.php"><button type="button" class="btn btn-primary btn-lg btn-block">GNCLIENT</button></a><br>
+                <a href="learnjq.php"><button type="button" class="btn btn-primary btn-lg btn-block">JQuery</button></a><br>
+                <a href="re.php"><button type="button" class="btn btn-primary btn-lg btn-block">RE</button></a><br>
+                <a href="exo.php"><button type="button" class="btn btn-primary btn-lg btn-block">EXOSYS</button></a><br>
+            </div>
+
+        </div>
+    </div>
+    <br>
     <?php require 'footer.php'; ?>
 </body>
 </html>
